@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        /* Active Page Style */
+        a.active {
+            border-bottom: 2px solid #fff;
+        }
+
+        .editor-page ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .editor-page li{
+            margin: 40px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Page Editor</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">User profile</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropbtn">Page Editor</a>
+            <div class="dropdown-content">
+              <a href="pageEditor_ST1.html">pageEditor_ST1</a>
+              <a href="pageEditor_ST2.html">pageEditor_ST2</a>
+              <a href="pageEditor_ST3.html">pageEditor_ST3</a>
+              <a href="pageEditor_ST4.html">pageEditor_ST4</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Content</a>
+            <div class="dropdown-content">
+              <a href="content_ST1.html">content_ST1</a>
+              <a href="content_ST2.html">content_ST2</a>
+              <a href="content_ST3.html">content_ST3</a>
+              <a href="content_ST4.html">content_ST4</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+<!-- Editor's Page Section -->
+<section id="editor-page" class="editor-page">
+    <h2>Page Editor</h2>
+    <ul>
+        <li><strong>Name: Onyinye Blessing Anago</strong> </li>
+        <li><strong>Role:</strong> Student 2</li>
+        <li><strong>The following pages were edited by Onyinye Blessing </strong></li>
+        <ul>
+            <li>
+                Feedback -<br> Created a Feedback using HTML attributes. <br>Used JavaScript to evaluate form.
+                <br><a href="feedback.html" target="_blank">link to feedback</a>
+            </li>
+            <li>
+                Content - <br>Created a content page with HTML, CSS, and JavaScript.<br> Added hover effects and altered visibility.<br> Shows the content of website.
+                <br><a href="content_ST2.html" target="_blank">link to content</a>
+            </li>
+            <li>
+                Page Editor -<br> Created a page containing links and images of websites.<br> Used CSS and positioning to create a minimalist layout.<br> Used anchors to jump from certain points on the page.
+                <br><a href="pageEditor_ST2.html" target="_blank">link to page editor</a>
+            </li>
+            <li>
+                Homepage - <br>Homepage we worked on together. <br>I aided with the JavaScript functions and events.<br> Helped with the visuals and fonts. Created a simple logo together.
+                <br><a href="home.html" target="_blank">link to homepage</a>
+            </li>
+        </ul>
+    </ul>
+
+    <!-- Links back to the main website -->
+    <p><a href="home.html" target="_blank">Back to Main Website</a></p>
+</section>
+
+</body>
+</html>
